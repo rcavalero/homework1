@@ -15,5 +15,5 @@ This website consists of three pages as follows:
 
 ## Acknowledgments
 
-* The wonderful instructers UW Coding Boot Camp
+* The wonderful instructors at UW Coding Boot Camp
 * Hat tip to anyone whose code was used
