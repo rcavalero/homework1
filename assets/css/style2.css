@@ -94,53 +94,20 @@ nav{
 
 #projects {
     margin-top:30px;
-/* This was commented out for the new portfolio page */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-
-/* height: 900px; */
 }
 
-/* this section is added for the new portfolio page */
 .psecs {
-    /* display: flex; */
-    margin-left: 0;
-    /* justify-content: flex-start; */
+    display: flex;
     width: 750px;
 }
  
-#projsec1 {
-    display: flex;
-    /* margin-left: 0; */
-    justify-content: flex-end;
-}
-#projsec2 {
-    display: flex;
-    /* justify-content: left; */
-}
-
-#projsec3 {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0;
-}
 
 .ppic {
-    /* height: 150px;
-    width: 150px; */
     height: 300px;
     width: 300px;
 }
 
 .pbtn {
-    /* background-color: #4aaaa5;
-    width: 100%;
-    height: 40px;
-    padding: 0;
-    text-align: center;
-    position: relative;
-    bottom: 60px; */
     background-color: #4aaaa5;
     width: 100%;
     height: 40px;
@@ -152,10 +119,6 @@ nav{
 }
 
 .pbtntxt {
-    /* font-family: 'Georgia', Times, 'Times New Roman', serif;
-    text-decoration: none;
-    color: white;
-    padding-top: 5px; */
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-decoration: none;
     color: white;
@@ -164,7 +127,6 @@ nav{
     padding-top: 10px;
     display: inline-block;
     text-align: center;
-
 }
 
 .subbtn {
