@@ -4,37 +4,41 @@
 }
 
 body {
-    border-color:  #dddddd;    
-    /* background-image: url("C:\Users\rcava_000\CodingBootCamp\Sessions\Session-1\homework1\assets\images\vichy.png"); */
-    /* background-image: url("\assets\images\vichy.png"); */
-    background-image: url("\assets\images\project1.jpg");
-    background-repeat: repeat;
-    background-color: lightsteelblue;
+    background-image: url("../images/vichy.png");
 }
 
+/* This applies to the header on each page */
+
 header {
-    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    width: inherit;
     height: 75px;
     background-color: #ffffff; 
     border: 1px solid #cccccc;
-/* use the following color for paragraphs and text other than headings */;
+}
+
+#hdbox {
+    width: inherit;
+    height: 100%;
 }
 
 #hbox {
     width: 960px;
     height: 100%;
     margin: auto;
-    /* background-color: darkgray; */
     color: white;
     display:flex;
 }
-#name {
+
+#logo {
     width: 350px;
     height: 100%;
     margin-left: 0;
     background-color: #4aaaa5;
     text-align: center;
 }
+
 h1{
     padding-top: 20px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -47,47 +51,48 @@ nav{
     height: 100%;
     margin-right: 10px;
     position: relative;
-    
 }
 
+/* this is for the navigation links in the header */
 .hl {
     color: lightgray;
     text-decoration: none;
     padding-left: 10px;
 }
-#frame {
-    width: 960px;
-    height: 350px;
-    background-color: white;
-    margin-top: 30px;
 
-    display: flex;
-    min-height: 50vh;
-    flex-direction: column;
-    flex: 1;
+/* this is for the main content section on each page */
+#frame {
+    width: 958px;
+    height: 348px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    margin-top: 30px;
 }
 
 #main {
     height: 90%;
     width: 90%;
-    margin-top: 30px;
-    background-color: white;
-
-    /* flex: 1; */
+    margin-top: 0;
+    background-color: #ffffff;
 }
-#am {
-    color: #4aaaa5;
-    height: 100px;
 
+#mainhd {
+    color: #4aaaa5;
+    height: 85px;
 }
 
 #hr1 {
     border: 1.5px solid lightgray;
 }
-#p1 {
-    display:flex;
 
+/* This applies to the detail section on the about me Page */
+
+#p1 {
+    display: flex;
 }
+
 #pic{
     width: 10%;
     height: 10%;
@@ -101,13 +106,70 @@ p {
     padding: 5px;
     color: #777777;
 }
+
+/* This applies to the input section of Contact Page */
+
+#input {
+    margin: 0;
+}
+
+.ip {
+    padding: 0;
+    padding-top: 3px;
+    font-size: 10pt;
+    margin-left: 2px;
+    color: #777777;
+}
+
+.inputbox {
+    width: 99%;
+    margin-left: 2px;
+    color: lightgray;
+}
+
+/* This applies to the project section of the Portfolio Page */
+
+#projects {
+    margin-top:30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ppic {
+    height: 150px;
+    width: 150px;
+}
+
+.pbtn {
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.pbtntxt {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: white;
+}
+
+.subbtn {
+    padding: 2px 15px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 3px;
+    border-style: none;
+}
+
+/* This applies to the footer on all pages */
+
 footer {
-    /* display:flex; */
-    /* flex-direction: column; */
-    margin-top: 55px;
-    /* flex-shrink: 0; */
-    flex: 0;
+    position:sticky;
+    bottom:0;
+    background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    margin-top: 55px;
     height: 10vh;
-    background-color: darkgray;
 }
