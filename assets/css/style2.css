@@ -16,6 +16,7 @@ header {
     height: 75px;
     background-color: #ffffff; 
     border: 1px solid #cccccc;
+    z-index: 1;
 }
 
 #hdbox {
@@ -63,7 +64,7 @@ nav{
 /* this is for the main content section on each page */
 #frame {
     width: 958px;
-    height: 348px;
+    height: 1150px;
     background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
@@ -87,61 +88,59 @@ nav{
     border: 1.5px solid lightgray;
 }
 
-/* This applies to the detail section on the about me Page */
 
-#p1 {
-    display: flex;
-}
-
-#pic{
-    width: 10%;
-    height: 10%;
-    margin-right: 10px;
-}    
-
-p {
-    text-align: justify;
-    font-size: 11pt;
-    line-height: 1.5;
-    padding: 5px;
-    color: #777777;
-}
-
-/* This applies to the input section of Contact Page */
-
-#input {
-    margin: 0;
-}
-
-.ip {
-    padding: 0;
-    padding-top: 3px;
-    font-size: 10pt;
-    margin-left: 2px;
-    color: #777777;
-}
-
-.inputbox {
-    width: 99%;
-    margin-left: 2px;
-    color: lightgray;
-}
 
 /* This applies to the project section of the Portfolio Page */
 
 #projects {
     margin-top:30px;
-    display: flex;
-    justify-content: space-evenly;
+/* This was commented out for the new portfolio page */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
 
+/* height: 900px; */
+}
+
+/* this section is added for the new portfolio page */
+.psecs {
+    /* display: flex; */
+    margin-left: 0;
+    /* justify-content: flex-start; */
+    width: 750px;
+}
+ 
+#projsec1 {
+    display: flex;
+    /* margin-left: 0; */
+    justify-content: flex-end;
+}
+#projsec2 {
+    display: flex;
+    /* justify-content: left; */
+}
+
+#projsec3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
 }
 
 .ppic {
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
+    height: 300px;
+    width: 300px;
 }
 
 .pbtn {
+    /* background-color: #4aaaa5;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 60px; */
     background-color: #4aaaa5;
     width: 100%;
     height: 40px;
@@ -149,17 +148,23 @@ p {
     text-align: center;
     position: relative;
     bottom: 60px;
+
 }
 
 .pbtntxt {
+    /* font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px; */
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-decoration: none;
     color: white;
     height: 100%;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
     display: inline-block;
     text-align: center;
+
 }
 
 .subbtn {
